@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013 alvarocarrera. Grupo de Sistemas Inteligentes - Universidad Politécnica de Madrid. (GSI-UPM)
+ * Copyright (c) 2013 alvarocarrera. Grupo de Sistemas Inteligentes - Universidad Politï¿½cnica de Madrid. (GSI-UPM)
  * http://www.gsi.dit.upm.es/
  * 
  * All rights reserved. This program and the accompanying materials
@@ -42,10 +42,10 @@ import es.upm.dit.gsi.sim.twitter.model.user.behaviour.BayesianBehaviour;
  * Factory to load network of Twitter users from JSON files or to create a
  * network manually.
  * 
- * Grupo de Sistemas Inteligentes Departamento de Ingeniería de Sistemas
- * Telemáticos Universidad Politécnica de Madrid (UPM)
+ * Grupo de Sistemas Inteligentes Departamento de Ingenierï¿½a de Sistemas
+ * Telemï¿½ticos Universidad Politï¿½cnica de Madrid (UPM)
  * 
- * @author Álvaro Carrera Barroso
+ * @author ï¿½lvaro Carrera Barroso
  * @email a.carrera@gsi.dit.upm.es
  * @twitter @alvarocarrera
  * @date 08/03/2013
@@ -260,7 +260,7 @@ public class TwitterNetworkFactory {
 			stringBuilder.append(line);
 			stringBuilder.append(ls);
 		}
-
+		reader.close();
 		return stringBuilder.toString();
 	}
 }
